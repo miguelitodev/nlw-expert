@@ -61,7 +61,13 @@ export function App() {
 
 	return (
 		<div className="mx-auto max-w-6xl my-12 space-y-6 px-5 lg:px-0">
-			<img src={logo} alt="NLW Expert" />
+			<div className="flex flex-row justify-between">
+				<img src={logo} alt="NLW Expert" />
+				<a className="text-sm font-bold" href="https://miguelito.dev">
+					Made by Miguel Riquelme
+				</a>
+			</div>
+
 			<form className="w-full">
 				<input
 					type="text"
